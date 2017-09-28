@@ -1,0 +1,23 @@
+
+{
+  "name": "adahaar_vote",
+  "version": "1.0.0",
+  "description": "A voting system based on indias adhaar",
+  "main": "server.js",
+  "dependencies": {
+    "express": "^4.15.4",
+    "sqlite3": "^3.1.9"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "keywords": [
+    "Voting",
+    "adhaar",
+    "nodejs"
+  ],
+  "author": "Hayzam Sherif",
+  "license": "MIT"
+}
