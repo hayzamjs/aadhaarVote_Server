@@ -34,7 +34,9 @@ var sqlQueryIns = 'INSERT OR IGNORE INTO votes(name,uid,votefor) VALUES ' +  '('
 db.run(sqlQueryIns);
 
 })
-
+app.get("/", function(req, res) {
+res.send("<html><center><h1><i>AadharVote Server doing it's magic here ♥</i></h1></center></html>");
+})
 app.get("/dynamic", function(req, res) {
 
 var posts = [];
